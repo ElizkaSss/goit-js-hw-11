@@ -6,7 +6,7 @@
   "scripts": {
     "deploy": "gh-pages -d src",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/goit-js-hw-11/",
     "preview": "vite preview"
   },
   "devDependencies": {
