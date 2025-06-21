@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
