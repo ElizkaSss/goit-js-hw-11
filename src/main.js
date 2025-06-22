@@ -42,6 +42,10 @@ form.addEventListener('submit', async (e) => {
         createGallery(data.hits);
     } catch (err) {
         console.error(err);
+        iziToast.error({
+            message: 'Oops! Something went wrong. Please try again later.',
+            position: 'topRight'
+        });
     } finally {
         hideLoader();
     }
